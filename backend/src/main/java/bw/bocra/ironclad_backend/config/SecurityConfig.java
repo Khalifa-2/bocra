@@ -25,6 +25,8 @@ public class SecurityConfig {
                                                 "/api/auth/**",
                                                 "/api/complaints/submit",
                                                 "/api/complaints/track/**",
+                                                "/api/licenses/apply",
+                                                "/api/licenses/{licenseNumber}",
                                                 "/swagger-ui.html",
                                                 "/swagger-ui/**",
                                                 "/swagger-ui/index.html",
